@@ -9,7 +9,7 @@ interface SignInCredentials {
   password: string;
 }
 interface AuthContextData {
-  user: CognitoUser | null | undefined
+  user: CognitoUser | null ;
   signInFunction(credentials: SignInCredentials): Promise<void> | undefined;
   signOut(): void;
 }
