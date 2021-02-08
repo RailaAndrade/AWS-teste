@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
+import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import Auth, { CognitoUser } from "@aws-amplify/auth"
 interface AuthState {
   token: string;
